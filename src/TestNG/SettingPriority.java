@@ -22,4 +22,6 @@ public class SettingPriority {
 	public void method3() {
 		System.out.println("Running TestNG method3 ");
 	 }
+	
+	//Update number 2
 }
