@@ -12,6 +12,11 @@ public class SettingPriority {
 	public void method2() {
 		System.out.println("Running TestNG method2 ");
 	 }
+	
+	@Test(priority=4)
+	public void method4() {
+		System.out.println("Running TestNG method4 ");
+	 }
 			 
 	@Test(priority=0)
 	public void method3() {
